@@ -1,0 +1,52 @@
+# .gitignore
+
+# Dependencies
+# Keep node_modules out of your repo. It's installed by npm/yarn.
+/node_modules
+
+# Vite build output
+# The 'dist' folder is generated when you run 'npm run build'.
+/dist
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment variables
+# Never commit .env files, as they may contain sensitive API keys.
+.env
+.env.local
+.env.*.local
+
+# IDE and editor directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Docker - Optional
+# You might want to ignore Docker-related files if they are specific
+# to your local setup, but often Dockerfile and docker-compose.yml
+# are committed to the repository. This is more for local overrides
+# or local-only Docker configurations.
+# docker-compose.override.yml
+.dockerignore
+
+# Test runner cache
+.jest-cache
+
+# Coverage directory
+/coverage
+
+# Temporary files
+*.tmp
+*.temp
